@@ -23,6 +23,7 @@
     <module>quickstart-design-pattern</module>
     <module>quickstart-spark</module>
     <module>quickstart-drools</module>
+    <module>quickstart-ibatis</module>
   </modules>
   
 </project>
