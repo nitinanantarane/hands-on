@@ -26,6 +26,7 @@
     <module>quickstart-ibatis</module>
     <module>quickstart-spring</module>
     <module>quickstart-jsp-web</module>
+    <module>quickstart-servlet-web</module>
   </modules>
   
 </project>
