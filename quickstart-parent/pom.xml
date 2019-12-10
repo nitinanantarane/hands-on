@@ -25,6 +25,7 @@
     <module>quickstart-drools</module>
     <module>quickstart-ibatis</module>
     <module>quickstart-spring</module>
+    <module>quickstart-jsp-web</module>
   </modules>
   
 </project>
