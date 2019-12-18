@@ -4,11 +4,13 @@ import java.util.Iterator;
 
 public class FibonaciGeneratorApp {
 	public static void main(String[] args) {
+		System.out.println("By using generator >>>>>>>>>>");
 		FibonaciGenerator fibonacciGenerator = new FibonaciGenerator();
 		for (int i = 0; i < 10; i++) {
 			System.out.println(fibonacciGenerator.next());
 		}
 		
+		System.out.println("By using Iterator >>>>>>>>>>>>");
 		for (Integer n : new IterableFibonaci(18)) {
 			System.out.println(n);
 		}
