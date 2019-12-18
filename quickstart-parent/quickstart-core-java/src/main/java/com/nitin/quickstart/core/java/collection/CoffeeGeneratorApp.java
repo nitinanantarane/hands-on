@@ -21,10 +21,6 @@ public class CoffeeGeneratorApp {
 	
 }
 
-interface Generator<T> {
-	T next();
-}
-
 class Coffee {
 	private static int count;
 	private final int id = count++;
