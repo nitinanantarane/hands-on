@@ -27,6 +27,7 @@
     <module>quickstart-spring</module>
     <module>quickstart-jsp-web</module>
     <module>quickstart-servlet-web</module>
+    <module>quickstart-kafka</module>
   </modules>
   
 </project>
