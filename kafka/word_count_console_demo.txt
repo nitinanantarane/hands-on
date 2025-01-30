@@ -1,0 +1,56 @@
+C:\InstalledApps\kafka_2.12-2.3.0>bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+
+C:\InstalledApps\kafka_2.12-2.3.0>bin\windows\kafka-server-start.bat config\server.properties
+
+C:\InstalledApps\kafka_2.12-2.3.0>bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic streams-plaintext-input
+
+C:\InstalledApps\kafka_2.12-2.3.0>bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic streams-wordcount-output
+
+C:\InstalledApps\kafka_2.12-2.3.0>bin\windows\kafka-topics.bat --bootstrap-server localhost:9092 --describe
+Topic:connect-test      PartitionCount:1        ReplicationFactor:1     Configs:min.insync.replicas=1,segment.bytes=1073741824
+        Topic: connect-test     Partition: 0    Leader: 0       Replicas: 0     Isr: 0
+Topic:streams-plaintext-input   PartitionCount:1        ReplicationFactor:1     Configs:min.insync.replicas=1,segment.bytes=1073741824
+        Topic: streams-plaintext-input  Partition: 0    Leader: 0       Replicas: 0     Isr: 0
+Topic:test      PartitionCount:1        ReplicationFactor:1     Configs:min.insync.replicas=1,segment.bytes=1073741824
+        Topic: test     Partition: 0    Leader: 0       Replicas: 0     Isr: 0
+Topic:streams-wordcount-output  PartitionCount:1        ReplicationFactor:1     Configs:min.insync.replicas=1,segment.bytes=1073741824
+        Topic: streams-wordcount-output Partition: 0    Leader: 0       Replicas: 0     Isr: 0
+Topic:test1     PartitionCount:1        ReplicationFactor:3     Configs:min.insync.replicas=1,segment.bytes=1073741824
+        Topic: test1    Partition: 0    Leader: 0       Replicas: 0,2,1 Isr: 0
+Topic:__consumer_offsets        PartitionCount:1        ReplicationFactor:1     Configs:compression.type=producer,min.insync.replicas=1,cleanup.policy=compact,segment.bytes=104857600
+        Topic: __consumer_offsets       Partition: 0    Leader: 0       Replicas: 0     Isr: 0
+
+
+C:\InstalledApps\kafka_2.12-2.3.0>bin\windows\kafka-run-class.bat org.apache.kafka.streams.examples.wordcount.WordCountDemo
+
+C:\InstalledApps\kafka_2.12-2.3.0>bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic streams-plaintext-input
+>kafka is good
+>kafka is also strong
+>what is strong in it
+>i dont know wman
+>find it yourself
+>
+
+C:\InstalledApps\kafka_2.12-2.3.0>bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic streams-wordcount-output --from-beginning --formatter kafka.tools.Defau
+ltMessageFormatter --property print.key=true --property print.value=true --property key.deserializer-org.apache.kafka.common.serialization.StringDeserializer --property value.deserialize
+r=org.apache.kafka.common.serialization.LongDeserializer
+kafka   1
+is      1
+good    1
+kafka   2
+is      2
+also    1
+strong  1
+what    1
+is      3
+strong  2
+in      1
+it      1
+i       1
+dont    1
+know    1
+wman    1
+find    1
+it      2
+yourself        1
+
