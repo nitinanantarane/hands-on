@@ -21,7 +21,7 @@ public class SparkApp {
         
         JavaSparkContext javaSparkContext = new JavaSparkContext(sparkConf);
         
-        JavaRDD<String> lines = javaSparkContext.textFile("D:\\CODE\\quickstart\\quickstart\\quickstart-spark\\src\\main\\java\\com\\nitin\\quickstart\\spark\\SparkApp.java");
+        JavaRDD<String> lines = javaSparkContext.textFile("D:\\workspace\\quickstart\\quickstart\\spark\\src\\main\\java\\com\\nitin\\quickstart\\spark\\SparkApp.java");
 
         JavaRDD<String> words = lines.flatMap(s -> Arrays.asList(SPACE.split(s)).iterator());
 
