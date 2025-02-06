@@ -1,4 +1,4 @@
 /.idea/
-*/target/
+/**/target/
 /kafka/microservices-kafka-tutorial/author-persistence/target/
 /kafka/microservices-kafka-tutorial/book-publisher/target/
