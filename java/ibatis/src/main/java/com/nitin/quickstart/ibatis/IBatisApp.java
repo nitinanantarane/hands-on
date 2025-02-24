@@ -1,4 +1,4 @@
-package com.nitin.quickstart.ibatis;
+package com.thinkinginjava.quickstart.ibatis;
 
 import java.io.IOException;
 import java.io.Reader;
@@ -7,9 +7,9 @@ import java.sql.SQLException;
 import com.ibatis.common.resources.Resources;
 import com.ibatis.sqlmap.client.SqlMapClient;
 import com.ibatis.sqlmap.client.SqlMapClientBuilder;
-import com.nitin.quickstart.ibatis.dao.UserInfoDao;
-import com.nitin.quickstart.ibatis.dao.impl.UserInfoDaoImpl;
-import com.nitin.quickstart.ibatis.entity.UserInfo;
+import com.thinkinginjava.quickstart.ibatis.dao.UserInfoDao;
+import com.thinkinginjava.quickstart.ibatis.dao.impl.UserInfoDaoImpl;
+import com.thinkinginjava.quickstart.ibatis.entity.UserInfo;
 
 public class IBatisApp {
     public static void main( String[] args ) throws IOException, SQLException {

@@ -1,4 +1,4 @@
-package com.nitin.semantic;
+package com.thinkinginjava.semantic;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

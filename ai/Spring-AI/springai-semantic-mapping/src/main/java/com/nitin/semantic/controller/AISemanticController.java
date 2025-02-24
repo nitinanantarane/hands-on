@@ -1,8 +1,8 @@
-package com.nitin.semantic.controller;
+package com.thinkinginjava.semantic.controller;
 
-import com.nitin.semantic.dto.SemanticOutputDto;
-import com.nitin.semantic.dto.SemanticRequestDto;
-import com.nitin.semantic.service.AIService;
+import com.thinkinginjava.semantic.dto.SemanticOutputDto;
+import com.thinkinginjava.semantic.dto.SemanticRequestDto;
+import com.thinkinginjava.semantic.service.AIService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

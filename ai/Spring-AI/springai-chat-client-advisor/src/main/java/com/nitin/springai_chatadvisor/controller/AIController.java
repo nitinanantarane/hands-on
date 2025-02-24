@@ -1,4 +1,4 @@
-package com.nitin.springai_chatadvisor.controller;
+package com.thinkinginjava.springai_chatadvisor.controller;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.nitin.quickstart.jsp.bean;
+package com.thinkinginjava.quickstart.jsp.bean;
 
 public class Counter {
 

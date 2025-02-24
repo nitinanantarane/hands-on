@@ -1,4 +1,4 @@
-package com.nitin.core;
+package com.thinkinginjava.core;
 
 import java.util.List;
 

@@ -1,10 +1,10 @@
-package com.nitin.quickstart.ibatis.dao.impl;
+package com.thinkinginjava.quickstart.ibatis.dao.impl;
 
 import java.sql.SQLException;
 
 import com.ibatis.sqlmap.client.SqlMapClient;
-import com.nitin.quickstart.ibatis.dao.UserInfoDao;
-import com.nitin.quickstart.ibatis.entity.UserInfo;
+import com.thinkinginjava.quickstart.ibatis.dao.UserInfoDao;
+import com.thinkinginjava.quickstart.ibatis.entity.UserInfo;
 
 public class UserInfoDaoImpl implements UserInfoDao {
 

@@ -1,4 +1,4 @@
-package com.nitin.drools.model;
+package com.thinkinginjava.drools.model;
 
 import java.util.ArrayList;
 import java.util.List;

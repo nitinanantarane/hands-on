@@ -7,7 +7,7 @@
   
   <servlet>
   		<servlet-name>HelloServlet</servlet-name>
-  		<servlet-class>com.nitin.quickstart.servlet.HelloServlet</servlet-class>
+  		<servlet-class>com.thinkinginjava.quickstart.servlet.HelloServlet</servlet-class>
   		<load-on-startup>1</load-on-startup>
   </servlet>
   

@@ -1,4 +1,4 @@
-package com.nitin.openai.dto;
+package com.thinkinginjava.openai.dto;
 
 public record BookDetails(
     String category,

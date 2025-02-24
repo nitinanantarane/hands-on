@@ -1,4 +1,4 @@
-package com.nitin.basic;
+package com.thinkinginjava.basic;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

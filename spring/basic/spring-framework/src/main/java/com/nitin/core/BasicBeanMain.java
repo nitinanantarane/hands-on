@@ -1,4 +1,4 @@
-package com.nitin.core;
+package com.thinkinginjava.core;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.AbstractApplicationContext;

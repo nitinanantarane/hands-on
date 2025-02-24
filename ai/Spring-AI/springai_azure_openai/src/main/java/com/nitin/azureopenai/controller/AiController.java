@@ -1,6 +1,6 @@
-package com.nitin.azureopenai.controller;
+package com.thinkinginjava.azureopenai.controller;
 
-import com.nitin.azureopenai.service.AiService;
+import com.thinkinginjava.azureopenai.service.AiService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

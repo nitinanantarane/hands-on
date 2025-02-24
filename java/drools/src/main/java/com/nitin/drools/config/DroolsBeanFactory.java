@@ -1,4 +1,4 @@
-package com.nitin.drools.config;
+package com.thinkinginjava.drools.config;
 import org.drools.decisiontable.DecisionTableProviderImpl;
 import org.kie.api.KieServices;
 import org.kie.api.builder.*;

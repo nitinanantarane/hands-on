@@ -1,4 +1,4 @@
-package com.nitin.quickstart.servlet;
+package com.thinkinginjava.quickstart.servlet;
 
 import java.io.IOException;
 

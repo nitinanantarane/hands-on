@@ -1,4 +1,4 @@
-package com.nitin.opensource;
+package com.thinkinginjava.opensource;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

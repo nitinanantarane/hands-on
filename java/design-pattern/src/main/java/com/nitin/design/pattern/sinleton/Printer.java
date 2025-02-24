@@ -1,4 +1,4 @@
-package com.nitin.design.pattern.sinleton;
+package com.thinkinginjava.design.pattern.sinleton;
 
 public class Printer {
 

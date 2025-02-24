@@ -1,4 +1,4 @@
-package com.nitin.spark;
+package com.thinkinginjava.spark;
 
 import java.util.Arrays;
 import java.util.List;

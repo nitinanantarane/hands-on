@@ -1,4 +1,4 @@
-package com.nitin.quickstart.kafka;
+package com.thinkinginjava.quickstart.kafka;
 
 import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.streams.KafkaStreams;

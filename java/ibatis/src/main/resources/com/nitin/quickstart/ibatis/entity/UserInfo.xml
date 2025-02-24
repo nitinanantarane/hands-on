@@ -2,7 +2,7 @@
 <!DOCTYPE sqlMap  PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd"> 
 <sqlMap namespace="userInfo"> 
  
-    <typeAlias alias="userInfo" type="com.nitin.quickstart.ibatis.entity.UserInfo" />
+    <typeAlias alias="userInfo" type="com.thinkinginjava.quickstart.ibatis.entity.UserInfo" />
  
     <resultMap id="userInfoMap" class="UserInfo">
         <result property="id" column="ID" />

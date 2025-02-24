@@ -1,4 +1,4 @@
-package com.nitin.design.pattern.factory;
+package com.thinkinginjava.design.pattern.factory;
 
 public class Polygon implements Shape {
 

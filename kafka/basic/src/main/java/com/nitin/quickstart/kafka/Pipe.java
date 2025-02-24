@@ -1,4 +1,4 @@
-package com.nitin.quickstart.kafka;
+package com.thinkinginjava.quickstart.kafka;
 
 import java.util.Properties;
 

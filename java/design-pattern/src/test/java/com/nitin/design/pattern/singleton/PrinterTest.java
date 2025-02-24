@@ -1,6 +1,6 @@
-package com.nitin.design.pattern.singleton;
+package com.thinkinginjava.design.pattern.singleton;
 
-import com.nitin.design.pattern.sinleton.Printer;
+import com.thinkinginjava.design.pattern.sinleton.Printer;
 import org.junit.Assert;
 import org.junit.Test;
 

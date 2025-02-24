@@ -1,8 +1,8 @@
-package com.nitin.quickstart.ibatis.dao;
+package com.thinkinginjava.quickstart.ibatis.dao;
 
 import java.sql.SQLException;
 
-import com.nitin.quickstart.ibatis.entity.UserInfo;
+import com.thinkinginjava.quickstart.ibatis.entity.UserInfo;
 
 public interface UserInfoDao {
 	

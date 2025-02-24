@@ -1,4 +1,4 @@
-package com.nitin.semantic;
+package com.thinkinginjava.semantic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

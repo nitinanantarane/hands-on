@@ -1,4 +1,4 @@
-package com.nitin.design.pattern.factory;
+package com.thinkinginjava.design.pattern.factory;
 
 import static org.junit.Assert.assertTrue;
 

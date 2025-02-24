@@ -1,4 +1,4 @@
-package com.nitin.azureopenai;
+package com.thinkinginjava.azureopenai;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

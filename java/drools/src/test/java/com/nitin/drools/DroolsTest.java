@@ -1,16 +1,16 @@
-package com.nitin.drools;
+package com.thinkinginjava.drools;
 
 import static org.junit.Assert.assertEquals;
 
-import com.nitin.drools.model.Customer;
+import com.thinkinginjava.drools.model.Customer;
 import org.junit.Before;
 import org.junit.Test;
 import org.kie.api.io.Resource;
 import org.kie.api.runtime.KieSession;
 import org.kie.internal.io.ResourceFactory;
 
-import com.nitin.drools.config.DroolsBeanFactory;
-import com.nitin.drools.model.Offer;
+import com.thinkinginjava.drools.config.DroolsBeanFactory;
+import com.thinkinginjava.drools.model.Offer;
 
 
 public class DroolsTest {

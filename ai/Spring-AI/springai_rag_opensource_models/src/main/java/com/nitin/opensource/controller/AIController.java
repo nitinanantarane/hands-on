@@ -1,6 +1,6 @@
-package com.nitin.opensource.controller;
+package com.thinkinginjava.opensource.controller;
 
-import com.nitin.opensource.service.AIService;
+import com.thinkinginjava.opensource.service.AIService;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.QuestionAnswerAdvisor;
 import org.springframework.ai.vectorstore.SearchRequest;

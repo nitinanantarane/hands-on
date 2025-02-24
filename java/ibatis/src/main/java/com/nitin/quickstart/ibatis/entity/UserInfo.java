@@ -1,4 +1,4 @@
-package com.nitin.quickstart.ibatis.entity;
+package com.thinkinginjava.quickstart.ibatis.entity;
 
 public class UserInfo {
 	private int id;

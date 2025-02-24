@@ -1,4 +1,4 @@
-package com.nitin.design.pattern.builder;
+package com.thinkinginjava.design.pattern.builder;
 
 import java.util.ArrayList;
 import java.util.List;

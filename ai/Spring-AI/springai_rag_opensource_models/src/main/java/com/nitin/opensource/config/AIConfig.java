@@ -1,4 +1,4 @@
-package com.nitin.opensource.config;
+package com.thinkinginjava.opensource.config;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.embedding.EmbeddingModel;
