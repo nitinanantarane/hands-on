@@ -1,7 +1,6 @@
-package com.thinkinginjava.semantic.service;
+package com.nitin.semantic.service;
 
-import com.thinkinginjava.semantic.dto.SemanticOutputDto;
-import com.thinkinginjava.semantic.dto.SemanticRequestDto;
+import com.nitin.semantic.dto.SemanticOutputDto;
 import org.springframework.ai.chat.model.ChatModel;
 import org.springframework.ai.chat.prompt.Prompt;
 import org.springframework.ai.chat.prompt.PromptTemplate;

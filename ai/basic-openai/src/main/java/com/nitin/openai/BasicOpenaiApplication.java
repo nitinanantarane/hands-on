@@ -1,4 +1,4 @@
-package com.thinkinginjava.openai;
+package com.nitin.openai;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

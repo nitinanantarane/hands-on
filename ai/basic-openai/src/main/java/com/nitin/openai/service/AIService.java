@@ -1,6 +1,6 @@
-package com.thinkinginjava.openai.service;
+package com.nitin.openai.service;
 
-import com.thinkinginjava.openai.dto.BookDetails;
+import com.nitin.openai.dto.BookDetails;
 import org.springframework.ai.client.AiClient;
 import org.springframework.ai.client.AiResponse;
 import org.springframework.ai.parser.BeanOutputParser;

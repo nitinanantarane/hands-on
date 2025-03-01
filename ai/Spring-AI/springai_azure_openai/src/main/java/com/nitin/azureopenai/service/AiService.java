@@ -1,4 +1,4 @@
-package com.thinkinginjava.azureopenai.service;
+package com.nitin.azureopenai.service;
 
 import org.springframework.ai.azure.openai.AzureOpenAiChatModel;
 import org.springframework.ai.chat.prompt.Prompt;

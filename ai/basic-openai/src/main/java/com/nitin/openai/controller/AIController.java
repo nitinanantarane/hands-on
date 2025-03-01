@@ -1,7 +1,7 @@
-package com.thinkinginjava.openai.controller;
+package com.nitin.openai.controller;
 
-import com.thinkinginjava.openai.dto.BookDetails;
-import com.thinkinginjava.openai.service.AIService;
+import com.nitin.openai.dto.BookDetails;
+import com.nitin.openai.service.AIService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

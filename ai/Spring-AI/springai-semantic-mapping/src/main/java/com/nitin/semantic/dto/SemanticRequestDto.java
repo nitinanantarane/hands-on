@@ -1,4 +1,4 @@
-package com.thinkinginjava.semantic.dto;
+package com.nitin.semantic.dto;
 
 import java.util.List;
 

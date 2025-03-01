@@ -13,7 +13,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.MimeTypeUtils;
 
 import java.io.IOException;
-import java.util.List;
 
 @Service
 public class ChatService {
@@ -43,7 +42,7 @@ public class ChatService {
     }
 
     public String getImageChatReader(String query) throws IOException {
-        var imageResource = new ClassPathResource("/image/api_image.png");
+        var imageResource = new ClassPathResource("/image/code.png");
 
         var userMessage = new UserMessage(query,
                 new Media(MimeTypeUtils.IMAGE_PNG, imageResource)); // media
