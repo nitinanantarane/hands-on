@@ -2,3 +2,6 @@
 /**/target/
 /kafka/microservices-kafka-tutorial/author-persistence/target/
 /kafka/microservices-kafka-tutorial/book-publisher/target/
+/react/learn/build/
+/react/learn/node_modules/
+/react/learn/package-lock.json

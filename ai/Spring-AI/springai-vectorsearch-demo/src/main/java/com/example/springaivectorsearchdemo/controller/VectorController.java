@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("api/v1")
@@ -20,8 +19,11 @@ public class VectorController {
 
     @GetMapping("/gen")
     public List<Document> genVectorSearch(@RequestParam String query) {
-        return vectorServices.simpleVector(query);//.get(0).getContent().toString();
+        return vectorServices.simpleVector(query);
     }
 
-
+    @GetMapping("/gen-str")
+    public String genStrSearch(@RequestParam String query) {
+        return vectorServices.simpleVector(query).get(0).getContent();
+    }
 }

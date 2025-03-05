@@ -1,4 +1,4 @@
-package com.thinkinginjava.springai_chatadvisor.config;
+package com.nitin.springai_chatadvisor.config;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.MessageChatMemoryAdvisor;
